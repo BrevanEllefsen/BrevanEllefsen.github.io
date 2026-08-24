@@ -1,0 +1,7 @@
+---
+title: "Curriculum Vitae"
+---
+
+My current curriculum vitae is available here:
+
+[Download my CV](files/cv.pdf)

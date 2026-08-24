@@ -1,0 +1,15 @@
+---
+title: "Brevan Ellefsen"
+---
+
+I am a mathematician working in geometric topology and low-dimensional topology.
+
+My research interests include 3-manifolds, measured laminations, foliations, and normal surface theory.
+
+## Research
+
+See my [research page](research.qmd) for papers and current projects.
+
+## Contact
+
+Email: bce2@illinois.edu
