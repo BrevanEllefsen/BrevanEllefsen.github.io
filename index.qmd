@@ -1,15 +1,47 @@
 ---
 title: "Brevan Ellefsen"
+toc: false
+page-layout: full
+
+format:
+  html:
+    body-classes: home-page
 ---
+{{< include _macros.qmd >}}
+::: {.home-intro}
 
-I am a mathematician working in geometric topology and low-dimensional topology.
+::: {.home-bio}
 
-My research interests include 3-manifolds, measured laminations, foliations, and normal surface theory.
+I am a PhD student in mathematics at the University of Illinois Urbana-Champaign, advised by Nathan Dunfield. I work in low-dimensional and geometric topology, particularly in the geometry and topology of 3-manifolds.
+
+My research focuses on the interplay between laminations and surfaces. I am particularly interested in understanding the counts and distribution of surfaces and laminations in 3-manifolds using combinatorial and analytic techniques, e.g. building spaces of measured laminations to count surfaces or putting essential laminations in minimal forms.
+
 
 ## Research
 
-See my [research page](research.qmd) for papers and current projects.
+My current research concerns the structure of measured lamination spaces of 3-manifolds and their relationship with normal surface theory. Particular goals of this research are to understand essential surface counts, to define a computable model of $\ML$ using least-weight laminations, and to understand how these spaces change in relation to hyperbolic volume.
+
+My paper *Growth Rate of Essential Surfaces via Measured Laminations* is available on the [arXiv](https://arxiv.org/abs/2608.08833).
+
+See my [research page](research.qmd) for more about my work.
+
+See my [cv](cv.qmd) for a complete history of my research.
+
+:::
+
+::: {.home-photo}
+
+![](images/personalPhoto.avif){.profile-photo}
+
+:::
+
+
 
 ## Contact
 
-Email: bce2@illinois.edu
+Department of Mathematics  
+University of Illinois Urbana-Champaign
+
+Email: [bce2@illinois.edu](mailto:bce2@illinois.edu)
+
+:::

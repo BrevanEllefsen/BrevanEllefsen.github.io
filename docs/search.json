@@ -1,30 +1,72 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Brevan Ellefsen",
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks and Conferences",
     "section": "",
-    "text": "I am a mathematician working in geometric topology and low-dimensional topology.\nMy research interests include 3-manifolds, measured laminations, foliations, and normal surface theory."
+    "text": "Invited Research Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          2025 Fall Central Sectional Meeting — Special Session on Foliations and 3-manifolds,\n        \n\n        \n          Saint Louis University, St. Louis, Missouri,\n          October 18–19, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Contributed Research Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          Topological and Geometric Structures in Low Dimensions,\n        \n\n        \n          SLMath,\n          March 16–April 24, 2026\n        \n\n        \n\n        \n          \n            Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026\n          \n        \n\n      \n\n    \n\n      \n\n        \n          Topological and Geometric Structures in Low Dimensions (Summer Workshop),\n        \n\n        \n          SLMath,\n          July 21–August 1, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          42nd Workshop in Geometric Topology,\n        \n\n        \n          Oberlin College,\n          June 12–14, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          Midwest Dynamical Systems Early Career Conference,\n        \n\n        \n          University of Notre Dame,\n          May 26–27, 2022\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          Binghamton University Graduate Combinatorics, Algebra, and Topology Conference (BUGCAT),\n        \n\n        \n          Binghamton University,\n          November 2–3, 2019\n        \n\n        \n          \n            Classifications of Linear Operators Preserving Root Locations\n          \n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Expository and Workshop Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          Log Cabin Workshop on Foliations,\n        \n\n        \n          St. George, Utah,\n          January 13–17, 2025\n        \n\n        \n          \n            Universal Circles, Part 3\n          \n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Selected Conferences and Programs\n\n  \n    \n      The following are selected conferences, workshops, and programs in which I participated without giving a talk.\n    \n  \n\n  \n\n    \n\n      \n\n        \n          Computational Problems about 3-Manifolds, Associated Groups and Varieties,\n        \n\n        \n          Rutgers University, Newark,\n          October 4–5, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          The St. Louis Topology Conference — Flows and Foliations in 3-manifolds,\n        \n\n        \n          St. Louis, Missouri,\n          May 17–19, 2024\n        \n\n        \n\n        \n\n      \n\n    \n\n  \n\n\nNo matching items"
   },
   {
-    "objectID": "index.html#research",
-    "href": "index.html#research",
-    "title": "Brevan Ellefsen",
-    "section": "Research",
-    "text": "Research\nSee my research page for papers and current projects."
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]\nMy research is primarily centered around the interplay between 3-manifolds and dynamics."
   },
   {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "Brevan Ellefsen",
-    "section": "Contact",
-    "text": "Contact\nEmail: bce2@illinois.edu"
+    "objectID": "research.html#papers",
+    "href": "research.html#papers",
+    "title": "Research",
+    "section": "Papers",
+    "text": "Papers\n\nGrowth Rate of Essential Surfaces via Measured Laminations\nBrevan Ellefsen, 2026. arXiv:2608.08833\nWe show that in any Haken 3-manifold \\(M\\), the dimensions of \\(\\ML(M)\\) and \\(\\ML_0(M)\\) can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least \\(-2n\\) in a closed orientable hyperbolic 3-manifold with \\(H_2(M,\\Z/2\\Z) = 0\\) is asymptotic to \\(n^{\\dim \\ML_0(M)}\\)."
+  },
+  {
+    "objectID": "research.html#current-research",
+    "href": "research.html#current-research",
+    "title": "Research",
+    "section": "Current Research",
+    "text": "Current Research\n\nLeast-Weight Laminations\nI am currently working to show all measured laminations admit normal representatives which are “minimal” with respect to combinatorial weight (intersections with the \\(1\\)-skeleton), with the hope to build a concrete realization of Hatcher’s \\(\\ML\\).\n\n\nVolume Bounds on Growth\nNow that \\(\\dim \\ML\\) is known to count surfaces by genus, I am interested in how \\(\\ML\\) varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound \\(\\dim \\ML(M)\\) in terms of \\(\\operatorname{vol}(M)\\) for a compact, hyperbolic \\(M^3\\).\n\n\nMinimal Laminations\nBuilding off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric."
+  },
+  {
+    "objectID": "research.html#other-interests",
+    "href": "research.html#other-interests",
+    "title": "Research",
+    "section": "Other Interests",
+    "text": "Other Interests\nI am generally interested in topological and geometric structures on 3-manifolds, including pseudo-Anosov flows and veering triangulations. I am particularly interested in methods that can be made computational.\nI am also interested in dynamical problems, particularly those that can be tackled using ergodic and specification techniques."
   },
   {
     "objectID": "cv.html",
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "My current curriculum vitae is available here:\nDownload my CV"
+    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]\n\nMy current CV is available here:\nCV (updated August 24th, 2026)"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Brevan Ellefsen",
+    "section": "",
+    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Brevan Ellefsen",
+    "section": "Research",
+    "text": "Research\nMy current research concerns the structure of measured lamination spaces of 3-manifolds and their relationship with normal surface theory. Particular goals of this research are to understand essential surface counts, to define a computable model of \\(\\ML\\) using least-weight laminations, and to understand how these spaces change in relation to hyperbolic volume.\nMy paper Growth Rate of Essential Surfaces via Measured Laminations is available on the arXiv.\nSee my research page for more about my work.\nSee my cv for a complete history of my research."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Brevan Ellefsen",
+    "section": "Contact",
+    "text": "Contact\nDepartment of Mathematics\nUniversity of Illinois Urbana-Champaign\nEmail: bce2@illinois.edu"
+  },
+  {
+    "objectID": "talks.ejs.html",
+    "href": "talks.ejs.html",
+    "title": "Brevan Ellefsen",
+    "section": "",
+    "text": "&lt;%\nconst sections = [\n  [\"invited\", \"Invited Research Talks\"],\n  [\"contributed\", \"Contributed Research Talks\"],\n  [\"expository\", \"Expository and Workshop Talks\"],\n  [\"attended\", \"Selected Conferences and Programs\"]\n];\n\nfor (const [key, heading] of sections) {\n  const group = items.filter(item =&gt; item.section === key);\n  if (group.length === 0) continue;\n%&gt;\n\n\n  &lt;%= heading %&gt;\n\n  &lt;% if (key === \"attended\") { %&gt;\n    \n      The following are selected conferences, workshops, and programs in which I participated without giving a talk.\n    \n  &lt;% } %&gt;\n\n  \n\n    &lt;% for (const item of group) { %&gt;\n\n      \n\n        \n          &lt;%= item.conference %&gt;,\n        \n\n        \n          &lt;%= item.location %&gt;,\n          &lt;%= item.dates %&gt;\n        \n\n        &lt;% if (item[\"talk-title\"]) { %&gt;\n          \n            &lt;%= item[\"talk-title\"] %&gt;\n          \n        &lt;% } %&gt;\n\n        &lt;% if (item.note) { %&gt;\n          \n            &lt;%= item.note %&gt;\n          \n        &lt;% } %&gt;\n\n      \n\n    &lt;% } %&gt;\n\n  \n\n\n&lt;%\n}\n%&gt;"
   }
 ]

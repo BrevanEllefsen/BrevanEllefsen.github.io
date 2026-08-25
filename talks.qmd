@@ -1,0 +1,21 @@
+---
+title: "Talks and Conferences"
+toc: false
+# page-layout: full
+
+# {{< include _macros.qmd >}}
+
+listing:
+  contents:
+    - talks.yml
+  template: talks.ejs.md
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  field-required:
+    - section
+    - conference
+    - url
+    - location
+    - dates
+---

@@ -1,0 +1,56 @@
+- section: invited
+  conference: "2025 Fall Central Sectional Meeting — Special Session on Foliations and 3-manifolds"
+  url: "https://www.ams.org/meetings/sectional/2322_program_ss11.html"
+  location: "Saint Louis University, St. Louis, Missouri"
+  dates: "October 18–19, 2025"
+
+- section: contributed
+  conference: "Topological and Geometric Structures in Low Dimensions"
+  url: "https://www.slmath.org/programs/368"
+  location: "SLMath"
+  dates: "March 16–April 24, 2026"
+  note: "Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026"
+
+- section: contributed
+  conference: "Topological and Geometric Structures in Low Dimensions (Summer Workshop)"
+  url: "https://www.slmath.org/workshops/1105"
+  location: "SLMath"
+  dates: "July 21–August 1, 2025"
+
+- section: contributed
+  conference: "42nd Workshop in Geometric Topology"
+  url: "https://sites.google.com/oberlin.edu/wgt2025/home"
+  location: "Oberlin College"
+  dates: "June 12–14, 2025"
+
+- section: contributed
+  conference: "Midwest Dynamical Systems Early Career Conference"
+  url: "https://mwds.math.northwestern.edu/MWDS_Early_Career_Conference.png"
+  location: "University of Notre Dame"
+  dates: "May 26–27, 2022"
+
+- section: contributed
+  conference: "Binghamton University Graduate Combinatorics, Algebra, and Topology Conference (BUGCAT)"
+  url: "https://drive.google.com/file/d/1ugKFs_xegjwQYhhy5KYkXVSrFCkVfxvF/view"
+  location: "Binghamton University"
+  dates: "November 2–3, 2019"
+  talk-title: "Classifications of Linear Operators Preserving Root Locations"
+
+- section: expository
+  conference: "Log Cabin Workshop on Foliations"
+  url: "https://sites.google.com/view/gt-log-cabin-workshop/home"
+  location: "St. George, Utah"
+  dates: "January 13–17, 2025"
+  talk-title: "Universal Circles, Part 3"
+
+- section: attended
+  conference: "Computational Problems about 3-Manifolds, Associated Groups and Varieties"
+  url: "https://sites.rutgers.edu/manifolds-groups-varieties/about/"
+  location: "Rutgers University, Newark"
+  dates: "October 4–5, 2025"
+
+- section: attended
+  conference: "The St. Louis Topology Conference — Flows and Foliations in 3-manifolds"
+  url: "https://sites.google.com/view/stltc/home"
+  location: "St. Louis, Missouri"
+  dates: "May 17–19, 2024"

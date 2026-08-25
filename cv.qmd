@@ -1,7 +1,10 @@
 ---
 title: "Curriculum Vitae"
+toc: false
 ---
 
-My current curriculum vitae is available here:
+{{< include _macros.qmd >}}
 
-[Download my CV](files/cv.pdf)
+My current CV is available here:
+
+[CV (updated August 24th, 2026)](files/cv.pdf)
