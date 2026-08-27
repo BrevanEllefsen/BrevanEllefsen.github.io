@@ -3,7 +3,7 @@ body {
   line-height: 1.45;
 }
 
-Keep very long lines from dominating large monitors
+/* Keep very long lines from dominating large monitors */
 .content {
   max-width: 850px;
 }
@@ -33,20 +33,35 @@ h1, h2, h3 {
 p {
   margin-bottom: 0.75rem;
 }
-/* .quarto-color-scheme-toggle .bi::before {
+
+/*
+.quarto-color-scheme-toggle .bi::before {
   content: "\F468" !important;
   font-family: "bootstrap-icons" !important;
-} */
+}
+*/
 
 /* Slight indentation of prose from headings */
 main.content > p,
 main.content section > p {
   margin-left: 0.65rem;
 }
+
+/* Homepage prose lives inside .home-bio rather than a <section>,
+   so give it the same indentation explicitly. */
+body.home-page .home-bio > p {
+  margin-left: 0.65rem;
+}
+
 /* Hide the redundant TOC heading */
 #toc-title {
   display: none;
 }
+
+
+/* ============================================================
+   TALKS PAGE
+   ============================================================ */
 
 .talk-list {
   margin-bottom: 1.5rem;
@@ -85,10 +100,10 @@ main.content section > p {
 /*
  * Location + date form a second unit.
  *
- * On a wide screen:
+ * Wide screen:
  * conference,  location,  date
  *
- * If that doesn't fit, this entire unit drops to line two:
+ * Narrower:
  * conference,
  * location,  date
  */
@@ -119,87 +134,11 @@ main.content section > p {
   opacity: 0.8;
 }
 
-/*
- * On genuinely narrow screens, finally permit the
- * location itself to wrap.
- */
+/* On genuinely narrow screens, finally permit the location itself to wrap. */
 @media (max-width: 550px) {
   .talk-location {
     white-space: normal;
   }
-}
-
-
-
-.home-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 720px) 260px;
-  column-gap: 2.5rem;
-  align-items: start;
-
-  width: min(1100px, calc(100vw - 4rem));
-  margin-left: auto;
-  margin-right: auto;
-
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.home-bio {
-  min-width: 0;
-}
-
-.home-photo {
-  width: 260px;
-}
-
-.profile-photo {
-  display: block;
-  width: 260px;
-  max-width: none;
-  height: auto;
-  margin: 0;
-  border-radius: 8px;
-}
-
-
-/* Slightly narrower screens: preserve the photo size and gap,
-   but let the prose column become narrower. */
-@media (max-width: 1050px) {
-  .home-intro {
-    grid-template-columns: minmax(0, 1fr) 260px;
-    column-gap: 3rem;
-    width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
-
-/* Once two columns genuinely stop looking good, stack them. */
-@media (max-width: 750px) {
-  .home-intro {
-    grid-template-columns: 1fr;
-    row-gap: 1.5rem;
-    width: 100%;
-  }
-
-  .home-photo {
-    width: 260px;
-  }
-
-  .profile-photo {
-    width: 260px;
-    max-width: min(260px, 100%);
-  }
-}
-
-body.home-page #title-block-header {
-  width: min(1100px, calc(100vw - 4rem));
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .talk-section > h2 {
@@ -211,14 +150,133 @@ body.home-page #title-block-header {
   border-left: 4px solid var(--bs-primary);
   padding-left: 0.7rem;
 
-  /* Keep the existing horizontal separation, but subtler */
+  /* Horizontal separation */
   border-bottom: 1px solid var(--bs-border-color);
   padding-bottom: 0.35rem;
 
   margin-top: 2.2rem;
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .talk-section-description {
   font-style: italic;
+}
+
+
+/* ============================================================
+   HOMEPAGE
+   ============================================================ */
+
+/*
+ * The page title, intro, and contact block always use the same
+ * outer width and horizontal padding. This keeps their left edges
+ * aligned at every width before the layout stacks.
+ */
+body.home-page #title-block-header,
+body.home-page .home-intro,
+body.home-page .home-contact {
+  width: min(1100px, calc(100vw - 4rem));
+  margin-inline: auto;
+  padding-inline: 2rem;
+  box-sizing: border-box;
+}
+
+
+/* Main text + portrait layout */
+body.home-page .home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 720px) 260px;
+  column-gap: 2.5rem;
+  align-items: start;
+}
+
+body.home-page .home-bio {
+  min-width: 0;
+}
+
+body.home-page .home-photo {
+  width: 260px;
+}
+
+body.home-page .profile-photo {
+  display: block;
+  width: 260px;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  border-radius: 8px;
+}
+
+
+/*
+ * Intermediate widths:
+ * keep the title, intro, and Contact section on exactly the same
+ * horizontal grid. Nothing is centered yet.
+ */
+@media (max-width: 1050px) {
+
+  body.home-page #title-block-header,
+  body.home-page .home-intro,
+  body.home-page .home-contact {
+    width: calc(100% - 2rem);
+    margin-inline: auto;
+    padding-inline: 0;
+  }
+
+  body.home-page .home-intro {
+    grid-template-columns: minmax(0, 1fr) 260px;
+    column-gap: 2.5rem;
+  }
+}
+
+
+/*
+ * Only when the portrait actually stacks do we center the homepage
+ * title, section headings, and Contact information.
+ */
+@media (max-width: 750px) {
+
+  body.home-page .home-intro {
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+  }
+
+  body.home-page .home-photo {
+    width: 260px;
+    margin-inline: auto;
+  }
+
+  body.home-page .profile-photo {
+    width: 260px;
+    max-width: min(260px, 100%);
+  }
+
+  /* Page title */
+  body.home-page #title-block-header,
+  body.home-page #title-block-header .title {
+    text-align: center;
+  }
+
+  /* Research heading */
+  body.home-page .home-bio h2 {
+    text-align: center;
+  }
+
+  /* Keep biography/research prose left-aligned */
+  body.home-page .home-bio > p {
+    text-align: left;
+  }
+
+  /* Contact heading and information */
+  body.home-page .home-contact,
+  body.home-page .home-contact h2,
+  body.home-page .home-contact p {
+    text-align: center !important;
+  }
+
+  body.home-page .home-contact p {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
 }

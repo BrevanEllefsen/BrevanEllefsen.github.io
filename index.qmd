@@ -35,7 +35,9 @@ See my [cv](cv.qmd) for a complete history of my research.
 
 :::
 
+:::
 
+::: {.home-contact}
 
 ## Contact
 
