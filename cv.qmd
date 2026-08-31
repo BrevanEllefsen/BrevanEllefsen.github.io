@@ -7,4 +7,4 @@ toc: false
 
 My current CV is available here:
 
-[CV (updated August 24th, 2026)](files/cv.pdf)
+[CV (updated August 30th, 2026)](files/cv.pdf)
