@@ -11,21 +11,21 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]\nMy research is primarily centered around the interplay between 3-manifolds and dynamics."
+    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]\nMy research is primarily centered around the interplay between 3-manifolds and their contained laminations."
   },
   {
     "objectID": "research.html#papers",
     "href": "research.html#papers",
     "title": "Research",
     "section": "Papers",
-    "text": "Papers\n\nGrowth Rate of Essential Surfaces via Measured Laminations\nBrevan Ellefsen, 2026. arXiv:2608.08833\nWe show that in any Haken 3-manifold \\(M\\), the dimensions of \\(\\ML(M)\\) and \\(\\ML_0(M)\\) can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least \\(-2n\\) in a closed orientable hyperbolic 3-manifold with \\(H_2(M,\\Z/2\\Z) = 0\\) is asymptotic to \\(n^{\\dim \\ML_0(M)}\\)."
+    "text": "Papers\n\nGrowth Rate of Essential Surfaces via Measured Laminations\nBrevan Ellefsen, 2026. arXiv:2608.08833\n\nWe show that in any Haken 3-manifold \\(M\\), the dimensions of \\(\\ML(M)\\) and \\(\\ML_0(M)\\) can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least \\(-2n\\) in a closed orientable hyperbolic 3-manifold with \\(H_2(M,\\Z/2\\Z) = 0\\) is asymptotic to \\(n^{\\dim \\ML_0(M)}\\)."
   },
   {
     "objectID": "research.html#current-research",
     "href": "research.html#current-research",
     "title": "Research",
     "section": "Current Research",
-    "text": "Current Research\n\nLeast-Weight Laminations\nI am currently working to show all measured laminations admit normal representatives which are “minimal” with respect to combinatorial weight (intersections with the \\(1\\)-skeleton), with the hope to build a concrete realization of Hatcher’s \\(\\ML\\).\n\n\nVolume Bounds on Growth\nNow that \\(\\dim \\ML\\) is known to count surfaces by genus, I am interested in how \\(\\ML\\) varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound \\(\\dim \\ML(M)\\) in terms of \\(\\operatorname{vol}(M)\\) for a compact, hyperbolic \\(M^3\\).\n\n\nMinimal Laminations\nBuilding off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric."
+    "text": "Current Research\n\nLeast-Weight Laminations\n\nI am currently working to show all measured laminations admit normal representatives which are “minimal” with respect to combinatorial weight (intersections with the \\(1\\)-skeleton), with the hope to build a concrete realization of Hatcher’s \\(\\ML\\).\n\n\n\nVolume Bounds on Growth\n\nNow that \\(\\dim \\ML\\) is known to count surfaces by genus, I am interested in how \\(\\ML\\) varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound \\(\\dim \\ML(M)\\) in terms of \\(\\operatorname{vol}(M)\\) for a compact, hyperbolic \\(M^3\\).\n\n\n\nMinimal Laminations\n\nBuilding off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric."
   },
   {
     "objectID": "research.html#other-interests",

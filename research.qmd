@@ -1,10 +1,14 @@
 ---
 title: "Research"
 toc: false
+
+format:
+  html:
+    body-classes: research-page
 ---
 {{< include _macros.qmd >}}
 
-My research is primarily centered around the interplay between 3-manifolds and dynamics.
+My research is primarily centered around the interplay between 3-manifolds and their contained laminations.
 
 ## Papers
 
@@ -12,21 +16,37 @@ My research is primarily centered around the interplay between 3-manifolds and d
 
 **Brevan Ellefsen**, 2026. [arXiv:2608.08833](https://arxiv.org/abs/2608.08833)
 
+::: {.research-description}
+
+
 We show that in any Haken 3-manifold $M$, the dimensions of $\ML(M)$ and $\ML_0(M)$ can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least $-2n$ in a closed orientable hyperbolic 3-manifold with $H_2(M,\Z/2\Z) = 0$ is asymptotic to $n^{\dim \ML_0(M)}$.
 
+:::
 ## Current Research
 
 ### Least-Weight Laminations
 
+::: {.research-description}
+
 I am currently working to show all measured laminations admit normal representatives which are "minimal" with respect to combinatorial weight (intersections with the $1$-skeleton), with the hope to build a concrete realization of Hatcher's $\ML$.
+
+:::
 
 ### Volume Bounds on Growth
 
+::: {.research-description}
+
 Now that $\dim \ML$ is known to count surfaces by genus, I am interested in how $\ML$ varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound $\dim \ML(M)$ in terms of $\operatorname{vol}(M)$ for a compact, hyperbolic $M^3$.
+
+:::
 
 ### Minimal Laminations
 
+::: {.research-description}
+
 Building off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric.
+
+:::
 
 ## Other Interests
 

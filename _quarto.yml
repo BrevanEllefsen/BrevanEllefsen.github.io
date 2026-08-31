@@ -20,6 +20,7 @@ website:
 
 format:
   html:
+    anchor-sections: false
     theme:
       dark: darkly
       light: flatly

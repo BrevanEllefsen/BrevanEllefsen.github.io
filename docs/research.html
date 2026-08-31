@@ -40,7 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -109,7 +108,7 @@ window.Quarto = {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed research-page fullcontent quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -345,32 +344,40 @@ window.Quarto = {
 \newcommand{\Z}{\mathbb{Z}}
 \]</span></p>
 </div>
-<p>My research is primarily centered around the interplay between 3-manifolds and dynamics.</p>
+<p>My research is primarily centered around the interplay between 3-manifolds and their contained laminations.</p>
 <section id="papers" class="level2">
-<h2 class="anchored" data-anchor-id="papers">Papers</h2>
+<h2 data-anchor-id="papers">Papers</h2>
 <section id="growth-rate-of-essential-surfaces-via-measured-laminations" class="level3">
-<h3 class="anchored" data-anchor-id="growth-rate-of-essential-surfaces-via-measured-laminations">Growth Rate of Essential Surfaces via Measured Laminations</h3>
+<h3 data-anchor-id="growth-rate-of-essential-surfaces-via-measured-laminations">Growth Rate of Essential Surfaces via Measured Laminations</h3>
 <p><strong>Brevan Ellefsen</strong>, 2026. <a href="https://arxiv.org/abs/2608.08833">arXiv:2608.08833</a></p>
+<div class="research-description">
 <p>We show that in any Haken 3-manifold <span class="math inline">\(M\)</span>, the dimensions of <span class="math inline">\(\ML(M)\)</span> and <span class="math inline">\(\ML_0(M)\)</span> can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least <span class="math inline">\(-2n\)</span> in a closed orientable hyperbolic 3-manifold with <span class="math inline">\(H_2(M,\Z/2\Z) = 0\)</span> is asymptotic to <span class="math inline">\(n^{\dim \ML_0(M)}\)</span>.</p>
+</div>
 </section>
 </section>
 <section id="current-research" class="level2">
-<h2 class="anchored" data-anchor-id="current-research">Current Research</h2>
+<h2 data-anchor-id="current-research">Current Research</h2>
 <section id="least-weight-laminations" class="level3">
-<h3 class="anchored" data-anchor-id="least-weight-laminations">Least-Weight Laminations</h3>
+<h3 data-anchor-id="least-weight-laminations">Least-Weight Laminations</h3>
+<div class="research-description">
 <p>I am currently working to show all measured laminations admit normal representatives which are “minimal” with respect to combinatorial weight (intersections with the <span class="math inline">\(1\)</span>-skeleton), with the hope to build a concrete realization of Hatcher’s <span class="math inline">\(\ML\)</span>.</p>
+</div>
 </section>
 <section id="volume-bounds-on-growth" class="level3">
-<h3 class="anchored" data-anchor-id="volume-bounds-on-growth">Volume Bounds on Growth</h3>
+<h3 data-anchor-id="volume-bounds-on-growth">Volume Bounds on Growth</h3>
+<div class="research-description">
 <p>Now that <span class="math inline">\(\dim \ML\)</span> is known to count surfaces by genus, I am interested in how <span class="math inline">\(\ML\)</span> varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound <span class="math inline">\(\dim \ML(M)\)</span> in terms of <span class="math inline">\(\operatorname{vol}(M)\)</span> for a compact, hyperbolic <span class="math inline">\(M^3\)</span>.</p>
+</div>
 </section>
 <section id="minimal-laminations" class="level3">
-<h3 class="anchored" data-anchor-id="minimal-laminations">Minimal Laminations</h3>
+<h3 data-anchor-id="minimal-laminations">Minimal Laminations</h3>
+<div class="research-description">
 <p>Building off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric.</p>
+</div>
 </section>
 </section>
 <section id="other-interests" class="level2">
-<h2 class="anchored" data-anchor-id="other-interests">Other Interests</h2>
+<h2 data-anchor-id="other-interests">Other Interests</h2>
 <p>I am generally interested in topological and geometric structures on 3-manifolds, including pseudo-Anosov flows and veering triangulations. I am particularly interested in methods that can be made computational.</p>
 <p>I am also interested in dynamical problems, particularly those that can be tackled using ergodic and specification techniques.</p>
 
@@ -393,13 +400,6 @@ window.Quarto = {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
