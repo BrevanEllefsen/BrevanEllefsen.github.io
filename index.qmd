@@ -30,7 +30,7 @@ In spring 2026, I was a Program Associate at SLMath for *Topological and Geometr
 
 ::: {.home-photo}
 
-![](images/personalPhoto.avif){.profile-photo fig-alt="Portrait of Brevan Ellefsen"}
+![](images/personalPhoto.jpg){.profile-photo fig-alt="Portrait of Brevan Ellefsen"}
 
 :::
 
