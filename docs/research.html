@@ -45,8 +45,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ee45204d908ab3f10f84d8aa577edd1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-905965243151d6b668a1db973b862be0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0746cada606bda2ac76fc4997f80b8d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-77009fb375eb08c3f027c991d2f2d2aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -337,48 +308,47 @@ window.Quarto = {
 </header>
 
 
-<div class="hidden">
-<p><span class="math display">\[
-\newcommand{\ML}{\mathcal{M\!L}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\Z}{\mathbb{Z}}
-\]</span></p>
-</div>
-<p>My research is primarily centered around the interplay between 3-manifolds and their contained laminations.</p>
-<section id="papers" class="level2">
-<h2 data-anchor-id="papers">Papers</h2>
+<p>My research is in geometric topology, with an emphasis on essential surfaces, essential and measured laminations, and taut foliations in 3-manifolds. I am particularly interested in using normal surface theory and branched surfaces to describe spaces of geometric objects and to make their structure accessible to computation.</p>
+<section id="publications-and-preprints" class="level2">
+<h2 data-anchor-id="publications-and-preprints">Publications and Preprints</h2>
 <section id="growth-rate-of-essential-surfaces-via-measured-laminations" class="level3">
 <h3 data-anchor-id="growth-rate-of-essential-surfaces-via-measured-laminations">Growth Rate of Essential Surfaces via Measured Laminations</h3>
 <p><strong>Brevan Ellefsen</strong>, 2026. <a href="https://arxiv.org/abs/2608.08833">arXiv:2608.08833</a></p>
 <div class="research-description">
-<p>We show that in any Haken 3-manifold <span class="math inline">\(M\)</span>, the dimensions of <span class="math inline">\(\ML(M)\)</span> and <span class="math inline">\(\ML_0(M)\)</span> can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least <span class="math inline">\(-2n\)</span> in a closed orientable hyperbolic 3-manifold with <span class="math inline">\(H_2(M,\Z/2\Z) = 0\)</span> is asymptotic to <span class="math inline">\(n^{\dim \ML_0(M)}\)</span>.</p>
+<p>I relate the dimensions of Hatcher’s measured lamination spaces to normal surface theory. Under the hypotheses of the paper, the polynomial growth exponent for closed orientable essential surfaces, counted up to isotopy by a bound on negative Euler characteristic, is the dimension of the space of closed measured laminations. This gives an intrinsic geometric interpretation of the surface-counting exponent, analogous to the role of measured laminations in counting curves on surfaces.</p>
 </div>
 </section>
 </section>
 <section id="current-research" class="level2">
 <h2 data-anchor-id="current-research">Current Research</h2>
+<section id="essential-faces-and-surface-counts" class="level3">
+<h3 data-anchor-id="essential-faces-and-surface-counts">Essential Faces and Surface Counts</h3>
+<div class="research-description">
+<p>I am extending the surface-counting results to compact surfaces with boundary and to 3-manifolds under weaker hypotheses. A central part of this work is to understand which faces of the normal solution space carry essential surfaces, and how their dimensions and isotopy relations determine growth exponents. This is part of a follow-up project to the closed-surface counting paper.</p>
+</div>
+</section>
 <section id="least-weight-laminations" class="level3">
 <h3 data-anchor-id="least-weight-laminations">Least-Weight Laminations</h3>
 <div class="research-description">
-<p>I am currently working to show all measured laminations admit normal representatives which are “minimal” with respect to combinatorial weight (intersections with the <span class="math inline">\(1\)</span>-skeleton), with the hope to build a concrete realization of Hatcher’s <span class="math inline">\(\ML\)</span>.</p>
+<p>I am developing a normal-surface theory of least-weight representatives of essential measured laminations. The goal is to construct normal representatives that minimize combinatorial weight in their isotopy classes, and to organize them using faces of the normal solution space and incompressible branched surfaces. Understanding the identifications arising from isotopy would then give a concrete normal-coordinate model of Hatcher’s measured lamination space.</p>
 </div>
 </section>
 <section id="volume-bounds-on-growth" class="level3">
 <h3 data-anchor-id="volume-bounds-on-growth">Volume Bounds on Growth</h3>
 <div class="research-description">
-<p>Now that <span class="math inline">\(\dim \ML\)</span> is known to count surfaces by genus, I am interested in how <span class="math inline">\(\ML\)</span> varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound <span class="math inline">\(\dim \ML(M)\)</span> in terms of <span class="math inline">\(\operatorname{vol}(M)\)</span> for a compact, hyperbolic <span class="math inline">\(M^3\)</span>.</p>
+<p>I am investigating how the dimensions of measured lamination spaces vary with the geometry of the underlying hyperbolic 3-manifold. In particular, I am interested in bounds in terms of hyperbolic volume and, through the connection with surface counts, in how volume constrains the growth of essential surfaces.</p>
 </div>
 </section>
 <section id="minimal-laminations" class="level3">
 <h3 data-anchor-id="minimal-laminations">Minimal Laminations</h3>
 <div class="research-description">
-<p>Building off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric.</p>
+<p>I am studying when an essential lamination admits a representative whose leaves are all minimal for a suitable ambient metric. This project is motivated by least-area incompressible surfaces and by the relationship between taut foliations and minimal leaves. I am particularly interested in approaches that construct the metric explicitly, including methods inspired by dynamics and transverse measures.</p>
 </div>
 </section>
 </section>
 <section id="other-interests" class="level2">
 <h2 data-anchor-id="other-interests">Other Interests</h2>
-<p>I am generally interested in topological and geometric structures on 3-manifolds, including pseudo-Anosov flows and veering triangulations. I am particularly interested in methods that can be made computational.</p>
+<p>My broader interests include pseudo-Anosov flows, veering triangulations, hyperbolic geometry, knot theory, normal and almost-normal surfaces, and connections between 3-manifolds and Teichmüller theory. I am particularly interested in methods that can be made computational.</p>
 <p>I am also interested in dynamical problems, particularly those that can be tackled using ergodic and specification techniques.</p>
 
 
@@ -464,7 +434,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/brevanellefsen\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

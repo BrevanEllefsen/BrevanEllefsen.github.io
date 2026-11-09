@@ -17,7 +17,7 @@ for (const [key, heading] of sections) {
 
   <% if (key === "attended") { %>
     <p class="talk-section-description">
-      The following are selected conferences, workshops, and programs in which I participated without giving a talk.
+      Selected conferences, workshops, and research programs in which I participated.
     </p>
   <% } %>
 
@@ -28,7 +28,11 @@ for (const [key, heading] of sections) {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="<%- item.url %>"><strong><%= item.conference %></strong></a>,
+          <% if (item.url) { %>
+            <a href="<%= item.url %>"><strong><%= item.conference %></strong></a>,
+          <% } else { %>
+            <strong><%= item.conference %></strong>,
+          <% } %>
         </span>
 
         <span class="talk-meta">

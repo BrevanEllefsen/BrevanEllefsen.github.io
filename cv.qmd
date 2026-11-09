@@ -1,10 +1,60 @@
 ---
 title: "Curriculum Vitae"
-toc: false
+toc: true
+
+format:
+  html:
+    body-classes: cv-page
 ---
 
-{{< include _macros.qmd >}}
+[Download my current CV (PDF)](files/cv.pdf).
 
-My current CV is available here:
+## Research Interests
 
-[CV (updated August 30th, 2026)](files/cv.pdf)
+3-manifolds, essential and measured laminations, taut foliations, pseudo-Anosov flows, hyperbolic geometry, knot theory, Teichmüller theory, essential surfaces, normal and almost-normal surfaces, and ergodic theory.
+
+## Education
+
+**University of Illinois Urbana-Champaign**, Champaign, Illinois, 2021–present. PhD in Mathematics, expected May 2027. Advisor: Nathan Dunfield.
+
+**Brigham Young University**, Provo, Utah, 2017–2020. BS in Mathematics.
+
+## Research Appointment
+
+**SLMath Program Associate**, Berkeley, California, March 16–April 24, 2026. Participant in [*Topological and Geometric Structures in Low Dimensions*](https://www.slmath.org/programs/368).
+
+## Publications and Preprints
+
+**Brevan Ellefsen.** *Growth Rate of Essential Surfaces via Measured Laminations*. 2026. [arXiv:2608.08833](https://arxiv.org/abs/2608.08833) [math.GT].
+
+## Research in Progress
+
+**Least-Weight Laminations.** Developing a normal-surface theory of least-weight representatives of essential measured laminations.
+
+**Volume Bounds on Growth.** Investigating bounds on measured-lamination-space dimension, and hence essential-surface growth, in terms of hyperbolic volume.
+
+**Minimal Laminations.** Studying when essential laminations admit representatives whose leaves are minimal for a suitable ambient metric.
+
+Further details, including ongoing extensions of the surface-counting results, are on my [research page](research.qmd).
+
+## Talks and Conferences
+
+My [talks and conferences page](talks.qmd) lists invited and contributed talks, expository talks, and selected conferences and programs. Recent invited talks include Tsinghua University on November 10, 2026; a two-part minicourse at the Shanghai Institute for Mathematics and Interdisciplinary Sciences on October 7–8, 2026; and the University of Wisconsin–Madison on September 16, 2026.
+
+## Honors and Funding
+
+**Departmental Fellowship**, University of Illinois Urbana-Champaign. Graduate fellowship support for spring 2027.
+
+**Departmental Fellowship**, University of Illinois Urbana-Champaign. Graduate fellowship support for fall 2025–summer 2026.
+
+## Teaching Experience
+
+**University of Illinois Urbana-Champaign**, 2021–present. Teaching Assistant for Calculus I (5 semesters), Calculus II (4 semesters), and Linear Algebra (2 semesters).
+
+**Brigham Young University**, 2020. Teaching Assistant for Complex Analysis (1 semester).
+
+## Mentoring and Service
+
+**Undergraduate Mentor, UIUC Directed Reading Program**, University of Illinois Urbana-Champaign, 3 semesters. Mentored undergraduates in dynamics and algebraic topology.
+
+**Organizer, UIUC Geometric Topology Seminar**, University of Illinois Urbana-Champaign, 2025–present. Created and organize an ongoing seminar for junior researchers in geometric topology and geometric group theory.

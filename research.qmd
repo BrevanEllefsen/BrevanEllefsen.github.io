@@ -6,11 +6,9 @@ format:
   html:
     body-classes: research-page
 ---
-{{< include _macros.qmd >}}
+My research is in geometric topology, with an emphasis on essential surfaces, essential and measured laminations, and taut foliations in 3-manifolds. I am particularly interested in using normal surface theory and branched surfaces to describe spaces of geometric objects and to make their structure accessible to computation.
 
-My research is primarily centered around the interplay between 3-manifolds and their contained laminations.
-
-## Papers
+## Publications and Preprints
 
 ### Growth Rate of Essential Surfaces via Measured Laminations
 
@@ -19,16 +17,24 @@ My research is primarily centered around the interplay between 3-manifolds and t
 ::: {.research-description}
 
 
-We show that in any Haken 3-manifold $M$, the dimensions of $\ML(M)$ and $\ML_0(M)$ can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least $-2n$ in a closed orientable hyperbolic 3-manifold with $H_2(M,\Z/2\Z) = 0$ is asymptotic to $n^{\dim \ML_0(M)}$.
+I relate the dimensions of Hatcher's measured lamination spaces to normal surface theory. Under the hypotheses of the paper, the polynomial growth exponent for closed orientable essential surfaces, counted up to isotopy by a bound on negative Euler characteristic, is the dimension of the space of closed measured laminations. This gives an intrinsic geometric interpretation of the surface-counting exponent, analogous to the role of measured laminations in counting curves on surfaces.
 
 :::
 ## Current Research
+
+### Essential Faces and Surface Counts
+
+::: {.research-description}
+
+I am extending the surface-counting results to compact surfaces with boundary and to 3-manifolds under weaker hypotheses. A central part of this work is to understand which faces of the normal solution space carry essential surfaces, and how their dimensions and isotopy relations determine growth exponents. This is part of a follow-up project to the closed-surface counting paper.
+
+:::
 
 ### Least-Weight Laminations
 
 ::: {.research-description}
 
-I am currently working to show all measured laminations admit normal representatives which are "minimal" with respect to combinatorial weight (intersections with the $1$-skeleton), with the hope to build a concrete realization of Hatcher's $\ML$.
+I am developing a normal-surface theory of least-weight representatives of essential measured laminations. The goal is to construct normal representatives that minimize combinatorial weight in their isotopy classes, and to organize them using faces of the normal solution space and incompressible branched surfaces. Understanding the identifications arising from isotopy would then give a concrete normal-coordinate model of Hatcher's measured lamination space.
 
 :::
 
@@ -36,7 +42,7 @@ I am currently working to show all measured laminations admit normal representat
 
 ::: {.research-description}
 
-Now that $\dim \ML$ is known to count surfaces by genus, I am interested in how $\ML$ varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound $\dim \ML(M)$ in terms of $\operatorname{vol}(M)$ for a compact, hyperbolic $M^3$.
+I am investigating how the dimensions of measured lamination spaces vary with the geometry of the underlying hyperbolic 3-manifold. In particular, I am interested in bounds in terms of hyperbolic volume and, through the connection with surface counts, in how volume constrains the growth of essential surfaces.
 
 :::
 
@@ -44,12 +50,12 @@ Now that $\dim \ML$ is known to count surfaces by genus, I am interested in how 
 
 ::: {.research-description}
 
-Building off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric.
+I am studying when an essential lamination admits a representative whose leaves are all minimal for a suitable ambient metric. This project is motivated by least-area incompressible surfaces and by the relationship between taut foliations and minimal leaves. I am particularly interested in approaches that construct the metric explicitly, including methods inspired by dynamics and transverse measures.
 
 :::
 
 ## Other Interests
 
-I am generally interested in topological and geometric structures on 3-manifolds, including pseudo-Anosov flows and veering triangulations. I am particularly interested in methods that can be made computational.
+My broader interests include pseudo-Anosov flows, veering triangulations, hyperbolic geometry, knot theory, normal and almost-normal surfaces, and connections between 3-manifolds and Teichmüller theory. I am particularly interested in methods that can be made computational.
 
 I am also interested in dynamical problems, particularly those that can be tackled using ergodic and specification techniques. 

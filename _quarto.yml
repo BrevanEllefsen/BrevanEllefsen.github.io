@@ -1,9 +1,19 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - research.qmd
+    - talks.qmd
+    - cv.qmd
+  resources:
+    - files/
+    - images/
 
 website:
   title: "Brevan Ellefsen"
+  description: "Brevan Ellefsen is a mathematics PhD candidate at the University of Illinois Urbana-Champaign, studying essential surfaces, laminations, and foliations in 3-manifolds."
+  site-url: "https://brevanellefsen.github.io"
 
   navbar:
     left:

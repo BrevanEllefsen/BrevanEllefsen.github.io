@@ -1,59 +1,115 @@
 [
   {
-    "objectID": "talks.html",
-    "href": "talks.html",
-    "title": "Talks and Conferences",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Invited Research Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          2025 Fall Central Sectional Meeting — Special Session on Foliations and 3-manifolds,\n        \n\n        \n          Saint Louis University, St. Louis, Missouri,\n          October 18–19, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Contributed Research Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          Topological and Geometric Structures in Low Dimensions,\n        \n\n        \n          SLMath,\n          March 16–April 24, 2026\n        \n\n        \n\n        \n          \n            Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026\n          \n        \n\n      \n\n    \n\n      \n\n        \n          Topological and Geometric Structures in Low Dimensions (Summer Workshop),\n        \n\n        \n          SLMath,\n          July 21–August 1, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          42nd Workshop in Geometric Topology,\n        \n\n        \n          Oberlin College,\n          June 12–14, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          Midwest Dynamical Systems Early Career Conference,\n        \n\n        \n          University of Notre Dame,\n          May 26–27, 2022\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          Binghamton University Graduate Combinatorics, Algebra, and Topology Conference (BUGCAT),\n        \n\n        \n          Binghamton University,\n          November 2–3, 2019\n        \n\n        \n          \n            Classifications of Linear Operators Preserving Root Locations\n          \n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Expository and Workshop Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          Log Cabin Workshop on Foliations,\n        \n\n        \n          St. George, Utah,\n          January 13–17, 2025\n        \n\n        \n          \n            Universal Circles, Part 3\n          \n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Selected Conferences and Programs\n\n  \n    \n      The following are selected conferences, workshops, and programs in which I participated without giving a talk.\n    \n  \n\n  \n\n    \n\n      \n\n        \n          Computational Problems about 3-Manifolds, Associated Groups and Varieties,\n        \n\n        \n          Rutgers University, Newark,\n          October 4–5, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          The St. Louis Topology Conference — Flows and Foliations in 3-manifolds,\n        \n\n        \n          St. Louis, Missouri,\n          May 17–19, 2024\n        \n\n        \n\n        \n\n      \n\n    \n\n  \n\n\nNo matching items"
+    "text": "Download my current CV (PDF)."
+  },
+  {
+    "objectID": "cv.html#research-interests",
+    "href": "cv.html#research-interests",
+    "title": "Curriculum Vitae",
+    "section": "Research Interests",
+    "text": "Research Interests\n3-manifolds, essential and measured laminations, taut foliations, pseudo-Anosov flows, hyperbolic geometry, knot theory, Teichmüller theory, essential surfaces, normal and almost-normal surfaces, and ergodic theory."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\nUniversity of Illinois Urbana-Champaign, Champaign, Illinois, 2021–present. PhD in Mathematics, expected May 2027. Advisor: Nathan Dunfield.\nBrigham Young University, Provo, Utah, 2017–2020. BS in Mathematics."
+  },
+  {
+    "objectID": "cv.html#research-appointment",
+    "href": "cv.html#research-appointment",
+    "title": "Curriculum Vitae",
+    "section": "Research Appointment",
+    "text": "Research Appointment\nSLMath Program Associate, Berkeley, California, March 16–April 24, 2026. Participant in Topological and Geometric Structures in Low Dimensions."
+  },
+  {
+    "objectID": "cv.html#publications-and-preprints",
+    "href": "cv.html#publications-and-preprints",
+    "title": "Curriculum Vitae",
+    "section": "Publications and Preprints",
+    "text": "Publications and Preprints\nBrevan Ellefsen. Growth Rate of Essential Surfaces via Measured Laminations. 2026. arXiv:2608.08833 [math.GT]."
+  },
+  {
+    "objectID": "cv.html#research-in-progress",
+    "href": "cv.html#research-in-progress",
+    "title": "Curriculum Vitae",
+    "section": "Research in Progress",
+    "text": "Research in Progress\nLeast-Weight Laminations. Developing a normal-surface theory of least-weight representatives of essential measured laminations.\nVolume Bounds on Growth. Investigating bounds on measured-lamination-space dimension, and hence essential-surface growth, in terms of hyperbolic volume.\nMinimal Laminations. Studying when essential laminations admit representatives whose leaves are minimal for a suitable ambient metric.\nFurther details, including ongoing extensions of the surface-counting results, are on my research page."
+  },
+  {
+    "objectID": "cv.html#talks-and-conferences",
+    "href": "cv.html#talks-and-conferences",
+    "title": "Curriculum Vitae",
+    "section": "Talks and Conferences",
+    "text": "Talks and Conferences\nMy talks and conferences page lists invited and contributed talks, expository talks, and selected conferences and programs. Recent invited talks include Tsinghua University on November 10, 2026; a two-part minicourse at the Shanghai Institute for Mathematics and Interdisciplinary Sciences on October 7–8, 2026; and the University of Wisconsin–Madison on September 16, 2026."
+  },
+  {
+    "objectID": "cv.html#honors-and-funding",
+    "href": "cv.html#honors-and-funding",
+    "title": "Curriculum Vitae",
+    "section": "Honors and Funding",
+    "text": "Honors and Funding\nDepartmental Fellowship, University of Illinois Urbana-Champaign. Graduate fellowship support for spring 2027.\nDepartmental Fellowship, University of Illinois Urbana-Champaign. Graduate fellowship support for fall 2025–summer 2026."
+  },
+  {
+    "objectID": "cv.html#teaching-experience",
+    "href": "cv.html#teaching-experience",
+    "title": "Curriculum Vitae",
+    "section": "Teaching Experience",
+    "text": "Teaching Experience\nUniversity of Illinois Urbana-Champaign, 2021–present. Teaching Assistant for Calculus I (5 semesters), Calculus II (4 semesters), and Linear Algebra (2 semesters).\nBrigham Young University, 2020. Teaching Assistant for Complex Analysis (1 semester)."
+  },
+  {
+    "objectID": "cv.html#mentoring-and-service",
+    "href": "cv.html#mentoring-and-service",
+    "title": "Curriculum Vitae",
+    "section": "Mentoring and Service",
+    "text": "Mentoring and Service\nUndergraduate Mentor, UIUC Directed Reading Program, University of Illinois Urbana-Champaign, 3 semesters. Mentored undergraduates in dynamics and algebraic topology.\nOrganizer, UIUC Geometric Topology Seminar, University of Illinois Urbana-Champaign, 2025–present. Created and organize an ongoing seminar for junior researchers in geometric topology and geometric group theory."
   },
   {
     "objectID": "research.html",
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]\nMy research is primarily centered around the interplay between 3-manifolds and their contained laminations."
+    "text": "My research is in geometric topology, with an emphasis on essential surfaces, essential and measured laminations, and taut foliations in 3-manifolds. I am particularly interested in using normal surface theory and branched surfaces to describe spaces of geometric objects and to make their structure accessible to computation."
   },
   {
-    "objectID": "research.html#papers",
-    "href": "research.html#papers",
+    "objectID": "research.html#publications-and-preprints",
+    "href": "research.html#publications-and-preprints",
     "title": "Research",
-    "section": "Papers",
-    "text": "Papers\n\nGrowth Rate of Essential Surfaces via Measured Laminations\nBrevan Ellefsen, 2026. arXiv:2608.08833\n\nWe show that in any Haken 3-manifold \\(M\\), the dimensions of \\(\\ML(M)\\) and \\(\\ML_0(M)\\) can be calculated using normal surfaces. As a corollary, we prove the number of closed orientable essential surfaces of Euler characteristic at least \\(-2n\\) in a closed orientable hyperbolic 3-manifold with \\(H_2(M,\\Z/2\\Z) = 0\\) is asymptotic to \\(n^{\\dim \\ML_0(M)}\\)."
+    "section": "Publications and Preprints",
+    "text": "Publications and Preprints\n\nGrowth Rate of Essential Surfaces via Measured Laminations\nBrevan Ellefsen, 2026. arXiv:2608.08833\n\nI relate the dimensions of Hatcher’s measured lamination spaces to normal surface theory. Under the hypotheses of the paper, the polynomial growth exponent for closed orientable essential surfaces, counted up to isotopy by a bound on negative Euler characteristic, is the dimension of the space of closed measured laminations. This gives an intrinsic geometric interpretation of the surface-counting exponent, analogous to the role of measured laminations in counting curves on surfaces."
   },
   {
     "objectID": "research.html#current-research",
     "href": "research.html#current-research",
     "title": "Research",
     "section": "Current Research",
-    "text": "Current Research\n\nLeast-Weight Laminations\n\nI am currently working to show all measured laminations admit normal representatives which are “minimal” with respect to combinatorial weight (intersections with the \\(1\\)-skeleton), with the hope to build a concrete realization of Hatcher’s \\(\\ML\\).\n\n\n\nVolume Bounds on Growth\n\nNow that \\(\\dim \\ML\\) is known to count surfaces by genus, I am interested in how \\(\\ML\\) varies as one changes the underlying 3-manifold. In particular, I am interested in whether one can bound \\(\\dim \\ML(M)\\) in terms of \\(\\operatorname{vol}(M)\\) for a compact, hyperbolic \\(M^3\\).\n\n\n\nMinimal Laminations\n\nBuilding off results of Freedman, Hass, and Scott in the surface case, and Sullivan in the foliation case, I hope to understand when their work can be bridged to prove certain classes of laminations admit leaves which are all minimal with respect to some ambient metric."
+    "text": "Current Research\n\nEssential Faces and Surface Counts\n\nI am extending the surface-counting results to compact surfaces with boundary and to 3-manifolds under weaker hypotheses. A central part of this work is to understand which faces of the normal solution space carry essential surfaces, and how their dimensions and isotopy relations determine growth exponents. This is part of a follow-up project to the closed-surface counting paper.\n\n\n\nLeast-Weight Laminations\n\nI am developing a normal-surface theory of least-weight representatives of essential measured laminations. The goal is to construct normal representatives that minimize combinatorial weight in their isotopy classes, and to organize them using faces of the normal solution space and incompressible branched surfaces. Understanding the identifications arising from isotopy would then give a concrete normal-coordinate model of Hatcher’s measured lamination space.\n\n\n\nVolume Bounds on Growth\n\nI am investigating how the dimensions of measured lamination spaces vary with the geometry of the underlying hyperbolic 3-manifold. In particular, I am interested in bounds in terms of hyperbolic volume and, through the connection with surface counts, in how volume constrains the growth of essential surfaces.\n\n\n\nMinimal Laminations\n\nI am studying when an essential lamination admits a representative whose leaves are all minimal for a suitable ambient metric. This project is motivated by least-area incompressible surfaces and by the relationship between taut foliations and minimal leaves. I am particularly interested in approaches that construct the metric explicitly, including methods inspired by dynamics and transverse measures."
   },
   {
     "objectID": "research.html#other-interests",
     "href": "research.html#other-interests",
     "title": "Research",
     "section": "Other Interests",
-    "text": "Other Interests\nI am generally interested in topological and geometric structures on 3-manifolds, including pseudo-Anosov flows and veering triangulations. I am particularly interested in methods that can be made computational.\nI am also interested in dynamical problems, particularly those that can be tackled using ergodic and specification techniques."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]\n\nMy current CV is available here:\nCV (updated August 30th, 2026)"
+    "text": "Other Interests\nMy broader interests include pseudo-Anosov flows, veering triangulations, hyperbolic geometry, knot theory, normal and almost-normal surfaces, and connections between 3-manifolds and Teichmüller theory. I am particularly interested in methods that can be made computational.\nI am also interested in dynamical problems, particularly those that can be tackled using ergodic and specification techniques."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Brevan Ellefsen",
     "section": "",
-    "text": "\\[\n\\newcommand{\\ML}{\\mathcal{M\\!L}}\n\\newcommand{\\R}{\\mathbb{R}}\n\\newcommand{\\Z}{\\mathbb{Z}}\n\\]"
+    "text": "I am a PhD candidate in mathematics at the University of Illinois Urbana-Champaign, advised by Nathan Dunfield. I expect to complete my PhD in May 2027. I work in geometric topology, particularly essential surfaces, essential and measured laminations, and taut foliations in 3-manifolds.\nMy research focuses on the interplay between laminations and surfaces. I use normal surface theory and branched surfaces to study spaces of measured laminations and the growth of essential surface counts. I am also interested in pseudo-Anosov flows and in constructing ambient metrics for which the leaves of an essential lamination are minimal.\n\n\nMy preprint Growth Rate of Essential Surfaces via Measured Laminations is available on the arXiv. It relates measured lamination space to normal surface theory and gives an intrinsic geometric interpretation of the growth exponent for closed essential surface counts under the hypotheses of the paper.\nMy current projects include extending these counts to compact surfaces with boundary and developing a normal-coordinate model of measured lamination space using least-weight laminations. I am also investigating the relationship between hyperbolic volume and surface growth, and the existence of minimal representatives of essential laminations.\nSee my research page for more about my work.\nIn spring 2026, I was a Program Associate at SLMath for Topological and Geometric Structures in Low Dimensions. I also organize the UIUC Geometric Topology Seminar and mentor undergraduates through the Directed Reading Program. My CV includes my education, talks, teaching, and service."
   },
   {
     "objectID": "index.html#research",
     "href": "index.html#research",
     "title": "Brevan Ellefsen",
-    "section": "Research",
-    "text": "Research\nMy current research concerns the structure of measured lamination spaces of 3-manifolds and their relationship with normal surface theory. Particular goals of this research are to understand essential surface counts, to define a computable model of \\(\\ML\\) using least-weight laminations, and to understand how these spaces change in relation to hyperbolic volume.\nMy paper Growth Rate of Essential Surfaces via Measured Laminations is available on the arXiv.\nSee my research page for more about my work.\nSee my cv for a complete history of my research."
+    "section": "",
+    "text": "My preprint Growth Rate of Essential Surfaces via Measured Laminations is available on the arXiv. It relates measured lamination space to normal surface theory and gives an intrinsic geometric interpretation of the growth exponent for closed essential surface counts under the hypotheses of the paper.\nMy current projects include extending these counts to compact surfaces with boundary and developing a normal-coordinate model of measured lamination space using least-weight laminations. I am also investigating the relationship between hyperbolic volume and surface growth, and the existence of minimal representatives of essential laminations.\nSee my research page for more about my work.\nIn spring 2026, I was a Program Associate at SLMath for Topological and Geometric Structures in Low Dimensions. I also organize the UIUC Geometric Topology Seminar and mentor undergraduates through the Directed Reading Program. My CV includes my education, talks, teaching, and service."
   },
   {
     "objectID": "index.html#contact",
@@ -63,10 +119,10 @@
     "text": "Contact\nDepartment of Mathematics\nUniversity of Illinois Urbana-Champaign\nEmail: bce2@illinois.edu"
   },
   {
-    "objectID": "talks.ejs.html",
-    "href": "talks.ejs.html",
-    "title": "Brevan Ellefsen",
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks and Conferences",
     "section": "",
-    "text": "&lt;%\nconst sections = [\n  [\"invited\", \"Invited Research Talks\"],\n  [\"contributed\", \"Contributed Research Talks\"],\n  [\"expository\", \"Expository and Workshop Talks\"],\n  [\"attended\", \"Selected Conferences and Programs\"]\n];\n\nfor (const [key, heading] of sections) {\n  const group = items.filter(item =&gt; item.section === key);\n  if (group.length === 0) continue;\n%&gt;\n\n\n  &lt;%= heading %&gt;\n\n  &lt;% if (key === \"attended\") { %&gt;\n    \n      The following are selected conferences, workshops, and programs in which I participated without giving a talk.\n    \n  &lt;% } %&gt;\n\n  \n\n    &lt;% for (const item of group) { %&gt;\n\n      \n\n        \n          &lt;%= item.conference %&gt;,\n        \n\n        \n          &lt;%= item.location %&gt;,\n          &lt;%= item.dates %&gt;\n        \n\n        &lt;% if (item[\"talk-title\"]) { %&gt;\n          \n            &lt;%= item[\"talk-title\"] %&gt;\n          \n        &lt;% } %&gt;\n\n        &lt;% if (item.note) { %&gt;\n          \n            &lt;%= item.note %&gt;\n          \n        &lt;% } %&gt;\n\n      \n\n    &lt;% } %&gt;\n\n  \n\n\n&lt;%\n}\n%&gt;"
+    "text": "Invited Research Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          \n            Tsinghua University — Geometry, Group Theory, and Topology (G2T2) Seminar,\n          \n        \n\n        \n          Online,\n          November 10, 2026\n        \n\n        \n          \n            Surface Counts and an Approach to ML via Normal Laminations\n          \n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          \n            Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS),\n          \n        \n\n        \n          Online,\n          October 7–8, 2026\n        \n\n        \n          \n            Surface Counts and an Approach to ML via Measured Laminations\n          \n        \n\n        \n          \n            Two-part invited minicourse\n          \n        \n\n      \n\n    \n\n      \n\n        \n          \n            University of Wisconsin–Madison — Group Actions and Dynamics Seminar,\n          \n        \n\n        \n          Madison, Wisconsin,\n          September 16, 2026\n        \n\n        \n          \n            Growth Rate of Essential Surfaces via Measured Laminations\n          \n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          \n            AMS Fall Central Sectional Meeting — Special Session on Foliations and 3-Manifolds,\n          \n        \n\n        \n          Saint Louis University, St. Louis, Missouri,\n          October 18–19, 2025\n        \n\n        \n          \n            Growth Rate of Essential Surfaces via Measured Laminations\n          \n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Contributed Research Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          \n            Topological and Geometric Structures in Low Dimensions,\n          \n        \n\n        \n          SLMath,\n          February 5, 2026\n        \n\n        \n          \n            Growth Rate of Essential Surfaces via Measured Laminations\n          \n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          \n            Topological and Geometric Structures in Low Dimensions (Summer Workshop),\n          \n        \n\n        \n          SLMath,\n          July 28, 2025\n        \n\n        \n          \n            Growth Rate of Essential Surfaces via Measured Laminations\n          \n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          \n            42nd Workshop in Geometric Topology,\n          \n        \n\n        \n          Oberlin College,\n          June 12–14, 2025\n        \n\n        \n          \n            Growth Rate of Essential Surfaces via Measured Laminations\n          \n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          \n            Midwest Dynamical Systems Early Career Conference,\n          \n        \n\n        \n          University of Notre Dame,\n          May 26–27, 2022\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          \n            Binghamton University Graduate Combinatorics, Algebra, and Topology Conference (BUGCAT),\n          \n        \n\n        \n          Binghamton University,\n          November 2–3, 2019\n        \n\n        \n          \n            Classifications of Linear Operators Preserving Root Locations\n          \n        \n\n        \n\n      \n\n    \n\n  \n\n\n\n  Expository and Workshop Talks\n\n  \n\n  \n\n    \n\n      \n\n        \n          \n            Log Cabin Workshop on Foliations,\n          \n        \n\n        \n          St. George, Utah,\n          January 13–17, 2025\n        \n\n        \n          \n            Universal Circles, Part 3\n          \n        \n\n        \n          \n            Expository talk\n          \n        \n\n      \n\n    \n\n  \n\n\n\n  Selected Conferences and Programs\n\n  \n    \n      Selected conferences, workshops, and research programs in which I participated.\n    \n  \n\n  \n\n    \n\n      \n\n        \n          \n            Topological and Geometric Structures in Low Dimensions,\n          \n        \n\n        \n          SLMath, Berkeley, California,\n          March 16–April 24, 2026\n        \n\n        \n\n        \n          \n            Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026\n          \n        \n\n      \n\n    \n\n      \n\n        \n          \n            Geometric Topology and Its Friends,\n          \n        \n\n        \n          CIRM, Marseille,\n          January 25–February 19, 2026\n        \n\n        \n\n        \n          \n            Participant\n          \n        \n\n      \n\n    \n\n      \n\n        \n          \n            Computational Problems about 3-Manifolds, Associated Groups and Varieties,\n          \n        \n\n        \n          Rutgers University, Newark,\n          October 4–5, 2025\n        \n\n        \n\n        \n\n      \n\n    \n\n      \n\n        \n          \n            The St. Louis Topology Conference — Flows and Foliations in 3-Manifolds,\n          \n        \n\n        \n          St. Louis, Missouri,\n          May 17–19, 2024\n        \n\n        \n\n        \n\n      \n\n    \n\n  \n\n\nNo matching items"
   }
 ]

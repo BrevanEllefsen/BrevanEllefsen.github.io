@@ -40,14 +40,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ee45204d908ab3f10f84d8aa577edd1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-905965243151d6b668a1db973b862be0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0746cada606bda2ac76fc4997f80b8d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-77009fb375eb08c3f027c991d2f2d2aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,35 +75,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -338,31 +308,24 @@ window.Quarto = {
 </header>
 
 
-<div class="hidden">
-<p><span class="math display">\[
-\newcommand{\ML}{\mathcal{M\!L}}
-\newcommand{\R}{\mathbb{R}}
-\newcommand{\Z}{\mathbb{Z}}
-\]</span></p>
-</div>
 <div class="home-intro">
 <div class="home-bio">
-<p>I am a PhD student in mathematics at the University of Illinois Urbana-Champaign, advised by Nathan Dunfield. I work in low-dimensional and geometric topology, particularly in the geometry and topology of 3-manifolds.</p>
-<p>My research focuses on the interplay between laminations and surfaces. I am particularly interested in understanding the counts and distribution of surfaces and laminations in 3-manifolds using combinatorial and analytic techniques, e.g.&nbsp;building spaces of measured laminations to count surfaces or putting essential laminations in minimal forms.</p>
+<p>I am a PhD candidate in mathematics at the University of Illinois Urbana-Champaign, advised by <a href="https://dunfield.info/">Nathan Dunfield</a>. I expect to complete my PhD in May 2027. I work in geometric topology, particularly essential surfaces, essential and measured laminations, and taut foliations in 3-manifolds.</p>
+<p>My research focuses on the interplay between laminations and surfaces. I use normal surface theory and branched surfaces to study spaces of measured laminations and the growth of essential surface counts. I am also interested in pseudo-Anosov flows and in constructing ambient metrics for which the leaves of an essential lamination are minimal.</p>
 <section id="research" class="level2">
-<h2 class="anchored" data-anchor-id="research">Research</h2>
-<p>My current research concerns the structure of measured lamination spaces of 3-manifolds and their relationship with normal surface theory. Particular goals of this research are to understand essential surface counts, to define a computable model of <span class="math inline">\(\ML\)</span> using least-weight laminations, and to understand how these spaces change in relation to hyperbolic volume.</p>
-<p>My paper <em>Growth Rate of Essential Surfaces via Measured Laminations</em> is available on the <a href="https://arxiv.org/abs/2608.08833">arXiv</a>.</p>
+<h2 data-anchor-id="research">Research</h2>
+<p>My preprint <em>Growth Rate of Essential Surfaces via Measured Laminations</em> is available on the <a href="https://arxiv.org/abs/2608.08833">arXiv</a>. It relates measured lamination space to normal surface theory and gives an intrinsic geometric interpretation of the growth exponent for closed essential surface counts under the hypotheses of the paper.</p>
+<p>My current projects include extending these counts to compact surfaces with boundary and developing a normal-coordinate model of measured lamination space using least-weight laminations. I am also investigating the relationship between hyperbolic volume and surface growth, and the existence of minimal representatives of essential laminations.</p>
 <p>See my <a href="./research.html">research page</a> for more about my work.</p>
-<p>See my <a href="./cv.html">cv</a> for a complete history of my research.</p>
+<p>In spring 2026, I was a Program Associate at SLMath for <em>Topological and Geometric Structures in Low Dimensions</em>. I also organize the UIUC Geometric Topology Seminar and mentor undergraduates through the Directed Reading Program. My <a href="./cv.html">CV</a> includes my education, talks, teaching, and service.</p>
 </section>
 </div>
 <div class="home-photo">
-<p><img src="images/personalPhoto.avif" class="profile-photo img-fluid"></p>
+<p><img src="images/personalPhoto.avif" class="profile-photo img-fluid" alt="Portrait of Brevan Ellefsen"></p>
 </div>
 </div>
 <section id="contact" class="level2 home-contact">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
+<h2 data-anchor-id="contact">Contact</h2>
 <p>Department of Mathematics<br>
 University of Illinois Urbana-Champaign</p>
 <p>Email: <a href="mailto:bce2@illinois.edu">bce2@illinois.edu</a></p>
@@ -386,13 +349,6 @@ University of Illinois Urbana-Champaign</p>
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -457,7 +413,7 @@ University of Illinois Urbana-Champaign</p>
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/brevanellefsen\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

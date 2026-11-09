@@ -1,9 +1,6 @@
 ---
 title: "Talks and Conferences"
 toc: false
-# page-layout: full
-
-# {{< include _macros.qmd >}}
 
 listing:
   contents:
@@ -15,7 +12,6 @@ listing:
   field-required:
     - section
     - conference
-    - url
     - location
     - dates
 ---

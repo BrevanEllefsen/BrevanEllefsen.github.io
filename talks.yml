@@ -1,39 +1,71 @@
 - section: invited
-  conference: "2025 Fall Central Sectional Meeting — Special Session on Foliations and 3-manifolds"
+  conference: "Tsinghua University — Geometry, Group Theory, and Topology (G2T2) Seminar"
+  url: "https://ymsc.tsinghua.edu.cn/info/1053/4238.htm"
+  location: "Online"
+  dates: "November 10, 2026"
+  start-date: "2026-11-10"
+  talk-title: "Surface Counts and an Approach to ML via Normal Laminations"
+
+- section: invited
+  conference: "Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)"
+  location: "Online"
+  dates: "October 7–8, 2026"
+  start-date: "2026-10-07"
+  talk-title: "Surface Counts and an Approach to ML via Measured Laminations"
+  note: "Two-part invited minicourse"
+
+- section: invited
+  conference: "University of Wisconsin–Madison — Group Actions and Dynamics Seminar"
+  location: "Madison, Wisconsin"
+  dates: "September 16, 2026"
+  start-date: "2026-09-16"
+  talk-title: "Growth Rate of Essential Surfaces via Measured Laminations"
+
+- section: invited
+  conference: "AMS Fall Central Sectional Meeting — Special Session on Foliations and 3-Manifolds"
   url: "https://www.ams.org/meetings/sectional/2322_program_ss11.html"
   location: "Saint Louis University, St. Louis, Missouri"
   dates: "October 18–19, 2025"
+  start-date: "2025-10-18"
+  talk-title: "Growth Rate of Essential Surfaces via Measured Laminations"
 
 - section: contributed
   conference: "Topological and Geometric Structures in Low Dimensions"
   url: "https://www.slmath.org/programs/368"
   location: "SLMath"
-  dates: "March 16–April 24, 2026"
-  note: "Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026"
+  dates: "February 5, 2026"
+  start-date: "2026-02-05"
+  talk-title: "Growth Rate of Essential Surfaces via Measured Laminations"
 
 - section: contributed
   conference: "Topological and Geometric Structures in Low Dimensions (Summer Workshop)"
   url: "https://www.slmath.org/workshops/1105"
   location: "SLMath"
-  dates: "July 21–August 1, 2025"
+  dates: "July 28, 2025"
+  start-date: "2025-07-28"
+  talk-title: "Growth Rate of Essential Surfaces via Measured Laminations"
 
 - section: contributed
   conference: "42nd Workshop in Geometric Topology"
   url: "https://sites.google.com/oberlin.edu/wgt2025/home"
   location: "Oberlin College"
   dates: "June 12–14, 2025"
+  start-date: "2025-06-12"
+  talk-title: "Growth Rate of Essential Surfaces via Measured Laminations"
 
 - section: contributed
   conference: "Midwest Dynamical Systems Early Career Conference"
   url: "https://mwds.math.northwestern.edu/MWDS_Early_Career_Conference.png"
   location: "University of Notre Dame"
   dates: "May 26–27, 2022"
+  start-date: "2022-05-26"
 
 - section: contributed
   conference: "Binghamton University Graduate Combinatorics, Algebra, and Topology Conference (BUGCAT)"
   url: "https://drive.google.com/file/d/1ugKFs_xegjwQYhhy5KYkXVSrFCkVfxvF/view"
   location: "Binghamton University"
   dates: "November 2–3, 2019"
+  start-date: "2019-11-02"
   talk-title: "Classifications of Linear Operators Preserving Root Locations"
 
 - section: expository
@@ -41,16 +73,35 @@
   url: "https://sites.google.com/view/gt-log-cabin-workshop/home"
   location: "St. George, Utah"
   dates: "January 13–17, 2025"
+  start-date: "2025-01-13"
   talk-title: "Universal Circles, Part 3"
+  note: "Expository talk"
+
+- section: attended
+  conference: "Topological and Geometric Structures in Low Dimensions"
+  url: "https://www.slmath.org/programs/368"
+  location: "SLMath, Berkeley, California"
+  dates: "March 16–April 24, 2026"
+  start-date: "2026-03-16"
+  note: "Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026"
+
+- section: attended
+  conference: "Geometric Topology and Its Friends"
+  location: "CIRM, Marseille"
+  dates: "January 25–February 19, 2026"
+  start-date: "2026-01-25"
+  note: "Participant"
 
 - section: attended
   conference: "Computational Problems about 3-Manifolds, Associated Groups and Varieties"
   url: "https://sites.rutgers.edu/manifolds-groups-varieties/about/"
   location: "Rutgers University, Newark"
   dates: "October 4–5, 2025"
+  start-date: "2025-10-04"
 
 - section: attended
-  conference: "The St. Louis Topology Conference — Flows and Foliations in 3-manifolds"
+  conference: "The St. Louis Topology Conference — Flows and Foliations in 3-Manifolds"
   url: "https://sites.google.com/view/stltc/home"
   location: "St. Louis, Missouri"
   dates: "May 17–19, 2024"
+  start-date: "2024-05-17"

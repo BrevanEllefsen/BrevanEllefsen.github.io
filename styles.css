@@ -287,7 +287,8 @@ body.home-page .profile-photo {
    ============================================================ */
 
 /* Major research sections: visually match Talks */
-body.research-page h2 {
+body.research-page h2,
+body.cv-page h2 {
   font-size: 1.45rem;
   font-weight: 600;
   letter-spacing: 0.01em;

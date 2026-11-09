@@ -47,8 +47,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-2ee45204d908ab3f10f84d8aa577edd1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-905965243151d6b668a1db973b862be0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-0746cada606bda2ac76fc4997f80b8d6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-77009fb375eb08c3f027c991d2f2d2aa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-section','listing-conference','listing-url','listing-location','listing-dates','listing-note','listing-talk-title',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-section','listing-conference','listing-url','listing-location','listing-dates','listing-start-date','listing-talk-title','listing-note',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-section","listing-conference","listing-url","listing-location","listing-dates","listing-note","listing-talk-title"],
+      searchColumns: ["listing-section","listing-conference","listing-url","listing-location","listing-dates","listing-start-date","listing-talk-title","listing-note"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -386,7 +386,88 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://www.ams.org/meetings/sectional/2322_program_ss11.html"><strong>2025 Fall Central Sectional Meeting — Special Session on Foliations and 3-manifolds</strong></a>,
+          
+            <a href="https://ymsc.tsinghua.edu.cn/info/1053/4238.htm"><strong>Tsinghua University — Geometry, Group Theory, and Topology (G2T2) Seminar</strong></a>,
+          
+        </span>
+
+        <span class="talk-meta">
+          <span class="talk-location">Online,</span>
+          <span class="talk-date">November 10, 2026</span>
+        </span>
+
+        
+          <div class="talk-title">
+            <em>Surface Counts and an Approach to ML via Normal Laminations</em>
+          </div>
+        
+
+        
+
+      </div>
+
+    
+
+      <div class="talk-entry">
+
+        <span class="talk-conference">
+          
+            <strong>Shanghai Institute for Mathematics and Interdisciplinary Sciences (SIMIS)</strong>,
+          
+        </span>
+
+        <span class="talk-meta">
+          <span class="talk-location">Online,</span>
+          <span class="talk-date">October 7–8, 2026</span>
+        </span>
+
+        
+          <div class="talk-title">
+            <em>Surface Counts and an Approach to ML via Measured Laminations</em>
+          </div>
+        
+
+        
+          <div class="talk-note">
+            Two-part invited minicourse
+          </div>
+        
+
+      </div>
+
+    
+
+      <div class="talk-entry">
+
+        <span class="talk-conference">
+          
+            <strong>University of Wisconsin–Madison — Group Actions and Dynamics Seminar</strong>,
+          
+        </span>
+
+        <span class="talk-meta">
+          <span class="talk-location">Madison, Wisconsin,</span>
+          <span class="talk-date">September 16, 2026</span>
+        </span>
+
+        
+          <div class="talk-title">
+            <em>Growth Rate of Essential Surfaces via Measured Laminations</em>
+          </div>
+        
+
+        
+
+      </div>
+
+    
+
+      <div class="talk-entry">
+
+        <span class="talk-conference">
+          
+            <a href="https://www.ams.org/meetings/sectional/2322_program_ss11.html"><strong>AMS Fall Central Sectional Meeting — Special Session on Foliations and 3-Manifolds</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
@@ -394,6 +475,10 @@ window.Quarto = {
           <span class="talk-date">October 18–19, 2025</span>
         </span>
 
+        
+          <div class="talk-title">
+            <em>Growth Rate of Essential Surfaces via Measured Laminations</em>
+          </div>
         
 
         
@@ -417,22 +502,24 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://www.slmath.org/programs/368"><strong>Topological and Geometric Structures in Low Dimensions</strong></a>,
+          
+            <a href="https://www.slmath.org/programs/368"><strong>Topological and Geometric Structures in Low Dimensions</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
           <span class="talk-location">SLMath,</span>
-          <span class="talk-date">March 16–April 24, 2026</span>
+          <span class="talk-date">February 5, 2026</span>
         </span>
 
         
-
-        
-          <div class="talk-note">
-            Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026
+          <div class="talk-title">
+            <em>Growth Rate of Essential Surfaces via Measured Laminations</em>
           </div>
         
 
+        
+
       </div>
 
     
@@ -440,14 +527,20 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://www.slmath.org/workshops/1105"><strong>Topological and Geometric Structures in Low Dimensions (Summer Workshop)</strong></a>,
+          
+            <a href="https://www.slmath.org/workshops/1105"><strong>Topological and Geometric Structures in Low Dimensions (Summer Workshop)</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
           <span class="talk-location">SLMath,</span>
-          <span class="talk-date">July 21–August 1, 2025</span>
+          <span class="talk-date">July 28, 2025</span>
         </span>
 
+        
+          <div class="talk-title">
+            <em>Growth Rate of Essential Surfaces via Measured Laminations</em>
+          </div>
         
 
         
@@ -459,7 +552,9 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://sites.google.com/oberlin.edu/wgt2025/home"><strong>42nd Workshop in Geometric Topology</strong></a>,
+          
+            <a href="https://sites.google.com/oberlin.edu/wgt2025/home"><strong>42nd Workshop in Geometric Topology</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
@@ -468,6 +563,10 @@ window.Quarto = {
         </span>
 
         
+          <div class="talk-title">
+            <em>Growth Rate of Essential Surfaces via Measured Laminations</em>
+          </div>
+        
 
         
 
@@ -478,7 +577,9 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://mwds.math.northwestern.edu/MWDS_Early_Career_Conference.png"><strong>Midwest Dynamical Systems Early Career Conference</strong></a>,
+          
+            <a href="https://mwds.math.northwestern.edu/MWDS_Early_Career_Conference.png"><strong>Midwest Dynamical Systems Early Career Conference</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
@@ -497,7 +598,9 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://drive.google.com/file/d/1ugKFs_xegjwQYhhy5KYkXVSrFCkVfxvF/view"><strong>Binghamton University Graduate Combinatorics, Algebra, and Topology Conference (BUGCAT)</strong></a>,
+          
+            <a href="https://drive.google.com/file/d/1ugKFs_xegjwQYhhy5KYkXVSrFCkVfxvF/view"><strong>Binghamton University Graduate Combinatorics, Algebra, and Topology Conference (BUGCAT)</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
@@ -532,7 +635,9 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://sites.google.com/view/gt-log-cabin-workshop/home"><strong>Log Cabin Workshop on Foliations</strong></a>,
+          
+            <a href="https://sites.google.com/view/gt-log-cabin-workshop/home"><strong>Log Cabin Workshop on Foliations</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
@@ -547,6 +652,10 @@ window.Quarto = {
         
 
         
+          <div class="talk-note">
+            Expository talk
+          </div>
+        
 
       </div>
 
@@ -560,7 +669,7 @@ window.Quarto = {
 
   
     <p class="talk-section-description">
-      The following are selected conferences, workshops, and programs in which I participated without giving a talk.
+      Selected conferences, workshops, and research programs in which I participated.
     </p>
   
 
@@ -571,7 +680,59 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://sites.rutgers.edu/manifolds-groups-varieties/about/"><strong>Computational Problems about 3-Manifolds, Associated Groups and Varieties</strong></a>,
+          
+            <a href="https://www.slmath.org/programs/368"><strong>Topological and Geometric Structures in Low Dimensions</strong></a>,
+          
+        </span>
+
+        <span class="talk-meta">
+          <span class="talk-location">SLMath, Berkeley, California,</span>
+          <span class="talk-date">March 16–April 24, 2026</span>
+        </span>
+
+        
+
+        
+          <div class="talk-note">
+            Program Associate; including Recent Progress in Topological and Geometric Structures in Low Dimensions, March 23–27, 2026
+          </div>
+        
+
+      </div>
+
+    
+
+      <div class="talk-entry">
+
+        <span class="talk-conference">
+          
+            <strong>Geometric Topology and Its Friends</strong>,
+          
+        </span>
+
+        <span class="talk-meta">
+          <span class="talk-location">CIRM, Marseille,</span>
+          <span class="talk-date">January 25–February 19, 2026</span>
+        </span>
+
+        
+
+        
+          <div class="talk-note">
+            Participant
+          </div>
+        
+
+      </div>
+
+    
+
+      <div class="talk-entry">
+
+        <span class="talk-conference">
+          
+            <a href="https://sites.rutgers.edu/manifolds-groups-varieties/about/"><strong>Computational Problems about 3-Manifolds, Associated Groups and Varieties</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
@@ -590,7 +751,9 @@ window.Quarto = {
       <div class="talk-entry">
 
         <span class="talk-conference">
-          <a href="https://sites.google.com/view/stltc/home"><strong>The St. Louis Topology Conference — Flows and Foliations in 3-manifolds</strong></a>,
+          
+            <a href="https://sites.google.com/view/stltc/home"><strong>The St. Louis Topology Conference — Flows and Foliations in 3-Manifolds</strong></a>,
+          
         </span>
 
         <span class="talk-meta">
@@ -690,7 +853,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/brevanellefsen\.github\.io");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
